@@ -77,15 +77,15 @@ function Header({ hideElement }) {
 
   return (
     <HeaderStyled>
-      <ImgStyled src="../../public/Imagenes/newLogo.png" alt="" title="Logo" />
+      <ImgStyled src="../../Imagenes/newLogo.png" alt="" title="Logo" />
       {!hideElement && <NavBar isMenuOpen={isMenuOpen} />}
       {!hideElement && (
         <button className="icon-burger" onClick={toggleDisplay}>
           <img
             src={
               isMenuOpen
-                ? "../../public/Icons/menuHamburger.svg"
-                : "../../public/Icons/close-menu.svg"
+                ? "../../Icons/menuHamburger.svg"
+                : "../../Icons/close-menu.svg"
             }
             alt=""
           />
